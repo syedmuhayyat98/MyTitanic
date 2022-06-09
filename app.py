@@ -40,4 +40,4 @@ def result():
     return render_template("subs.html", p = answer)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=33507)
+    app.run(host='0.0.0.0', port=33507)
